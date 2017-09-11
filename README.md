@@ -2,11 +2,7 @@
 GUI/CMD Config Maker for Claymore's Miner v9.6 (ETH)
 Version: 1.0 9/11/17
 
-visit me li0n.me
-
-email me li0n@li0n.me - I'll try my best to help with issues.*
-
-*problems related to project will be publically put in the issues section unless privacy is specifically requested.
+visit me www.li0n.me
 
 Donate ETH to my fly ass 0xa054E87795015b5cab113cE6727E5962C38146fa
 # about
