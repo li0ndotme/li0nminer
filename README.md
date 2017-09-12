@@ -12,7 +12,7 @@ Send me ETH or Tokens
 0xa054E87795015b5cab113cE6727E5962C38146fa
 
 # about
-I think this will explain everything. More information coming soon.
+li0nminer is an interface (batch file) that sits on top of Claymore's miner. It quickly allows you to create and modify a configuration file for the miner. This batch file will only mine ETH at this time but I plan to add the other options that Claymore has alredy configured. My goal is this little batch file might make it a little less scary for something trying to start up mining.
 
 https://imgur.com/a/U7sER
 
