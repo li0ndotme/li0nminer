@@ -21,6 +21,6 @@ This sits on Claymore's Miner v9.6, so... you need that.
 
 https://github.com/nanopool/Claymore-Dual-Miner
 
-1. Drop these two files in your Claymore Miner folder. 
+1. Drop start.bat in your Claymore Miner folder. 
 2. Run start.bat.
 3. Profit?!??!??!?!
