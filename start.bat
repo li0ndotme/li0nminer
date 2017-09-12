@@ -59,11 +59,11 @@ if /I "%c%" EQU "Y" goto :next
 goto :choice
 :next
 (
-  echo server=%server%
-  echo eth=%eth%
-  echo heap=%heap%
-  echo gpu=%gpu%
-  echo single=%single%
+  echo %server%
+  echo %eth%
+  echo %heap%
+  echo %gpu%
+  echo %single%
 ) > config.sav
 ECHO.
 ECHO ======PRESS ANY KEY TO CONTINUE======
