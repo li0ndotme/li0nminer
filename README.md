@@ -15,7 +15,9 @@ I think this will explain everything. More information coming soon.
 
 https://imgur.com/a/U7sER
 # how-to
-This is based off Claymore's Miner v9.6, so... you need that.
+This is based off Claymore's Miner v9.6, so... you need that. 
+
+https://github.com/nanopool/Claymore-Dual-Miner
 
 1. Drop these two files in your Claymore Miner folder. 
 2. Run start.bat.
