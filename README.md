@@ -17,10 +17,8 @@ I think this will explain everything. More information coming soon.
 https://imgur.com/a/U7sER
 
 # how-to
-This sits on Claymore's Miner v9.6, so... you need that. 
+1. Download Claymore's Miner here: https://github.com/nanopool/Claymore-Dual-Miner
 
-https://github.com/nanopool/Claymore-Dual-Miner
+2. Drop "start.bat" in the Claymore Miner folder.
 
-1. Drop start.bat in your Claymore Miner folder. 
-2. Run start.bat.
-3. Profit?!??!??!?!
+3. Run "start.bat".
