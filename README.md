@@ -1,10 +1,6 @@
 # li0nminer
 Interface for Claymore's ETH Miner v9.8
 
-Version: 1.1 - Confirmed compatibility with Claymore's Miner v9.8, fixed stupid bugs with saving config. Changed version number.
-
-Version: 1.0 - Initial release.
-
 visit me www.li0n.me
 
 Send me ETH or Tokens
@@ -22,3 +18,8 @@ https://imgur.com/a/U7sER
 2. Drop "start.bat" in the Claymore Miner folder.
 
 3. Run "start.bat".
+
+# version history
+Version: 1.1 - Confirmed compatibility with Claymore's Miner v9.8, fixed stupid bugs with saving config. Changed version number.
+
+Version: 1.0 - Initial release.
