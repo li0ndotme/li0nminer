@@ -4,7 +4,7 @@ color 0c
 ECHO.
 ECHO ======PRESS ANY KEY TO CONTINUE======
 ECHO.
-ECHO       MADE BY LI0N. VERSION 1.0
+ECHO       MADE BY LI0N. VERSION 1.1
 ECHO.
 ECHO     github.com/li0ndotme/li0nminer
 ECHO.
@@ -49,7 +49,6 @@ CLS
 ECHO MINING CONFIG. HIT ENTER AFTER ENTRY.
 set /p server="Ethermine.org server? ex. us1.ethermine.org:4444 or us1.ethermine.org:14444  :"
 set /p eth="Enter your ETH address. ex. 0xa054E87795015b5cab113cE6727E5962C38146fa  :"
-set /p name="Enter your computer name. ex. Computer01  :"
 set /p heap="Enter your GPU_MAX_HEAP_SIZE. ex. 100 :"
 set /p gpu="Enter your GPU_MAX_ALLOC_PERCENT. ex. 99  :"
 set /p single="Enter your GPU_SINGLE_ALLOC_PERCENT. ex. 99  :"
@@ -61,9 +60,8 @@ goto :choice
 :next
 (
   echo server=%server%
-  echo eth=%name%
-  echo heap=%eth%
-  echo name=%heap%
+  echo eth=%eth%
+  echo heap=%heap%
   echo gpu=%gpu%
   echo single=%single%
 ) > config.sav
@@ -101,14 +99,14 @@ setx GPU_MAX_HEAP_SIZE %heap%
 setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT %gpu%
 setx GPU_SINGLE_ALLOC_PERCENT %single%
-EthDcrMiner64.exe -epool %server% -ewal %eth%.%name% -epsw x
+EthDcrMiner64.exe -epool %server% -ewal %eth% -epsw x -mode 1 -ftime 10
 :Selection2
 ECHO setx GPU_FORCE_64BIT_PTR 0
 ECHO setx GPU_MAX_HEAP_SIZE %heap%
 ECHO setx GPU_USE_SYNC_OBJECTS 1
 ECHO setx GPU_MAX_ALLOC_PERCENT %gpu%
 ECHO setx GPU_SINGLE_ALLOC_PERCENT %single%
-ECHO EthDcrMiner64.exe -epool %server% -ewal %eth%.%name% -epsw x
+EthDcrMiner64.exe -epool %server% -ewal %eth% -epsw x -mode 1 -ftime 10
 ECHO.
 ECHO ======PRESS ANY KEY TO CONTINUE======
 PAUSE > NUL
