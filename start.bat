@@ -17,7 +17,7 @@ CLS
 :MENULOAD
 ECHO ============LOADING MENU=============
 ECHO.
-ECHO 1.  LOAD CONFIG.SAV
+ECHO 1.  LOAD CONFIG.li0n
 ECHO.
 ECHO 2.  NEW COFIG
 ECHO.
@@ -31,7 +31,7 @@ IF /I '%INPUT%'=='Q' GOTO Quit
 PAUSE > NUL
 CLS
 :Load
-< config.sav (
+< config.li0n (
   set /p server=
   set /p eth=
   set /p heap=
@@ -64,7 +64,7 @@ goto :choice
   echo %heap%
   echo %gpu%
   echo %single%
-) > config.sav
+) > config.li0n
 ECHO.
 ECHO ======PRESS ANY KEY TO CONTINUE======
 PAUSE > NUL
