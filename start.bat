@@ -106,7 +106,7 @@ ECHO setx GPU_MAX_HEAP_SIZE %heap%
 ECHO setx GPU_USE_SYNC_OBJECTS 1
 ECHO setx GPU_MAX_ALLOC_PERCENT %gpu%
 ECHO setx GPU_SINGLE_ALLOC_PERCENT %single%
-EthDcrMiner64.exe -epool %server% -ewal %eth% -epsw x -mode 1 -ftime 10
+ECHO EthDcrMiner64.exe -epool %server% -ewal %eth% -epsw x -mode 1 -ftime 10
 ECHO.
 ECHO ======PRESS ANY KEY TO CONTINUE======
 PAUSE > NUL
