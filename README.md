@@ -15,7 +15,7 @@ I think this will explain everything. More information coming soon.
 
 https://imgur.com/a/U7sER
 # how-to
-This is based off Claymore's Miner v9.6, so... you need that. 
+This sits on Claymore's Miner v9.6, so... you need that. 
 
 https://github.com/nanopool/Claymore-Dual-Miner
 
