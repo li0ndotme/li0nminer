@@ -1,7 +1,7 @@
 # li0nminer
 Interface for Claymore's ETH Miner v9.8
 
-Version: 1.1 - Confirmed compatibility with Claymore's Miner v9.8
+Version: 1.1 - Confirmed compatibility with Claymore's Miner v9.8, fixed stupid bugs with saving config. Changed version number.
 
 Version: 1.0 - Initial release.
 
